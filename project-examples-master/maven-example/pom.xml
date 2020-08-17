@@ -27,17 +27,17 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-		<distributionManagement>			
-		    <snapshotRepository>
-		        <id>snapshots</id>
-		        <name>CANA012DLS-snapshots</name>
-		        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-		    </snapshotRepository>
+		<distributionManagement>
 		   <repository>
 	        <id>central</id>
 	        <name>CANA012DLS-releases</name>
 	        <url>http://localhost:8081/artifactory/libs-release-local</url>
     		</repository>
+		    <snapshotRepository>
+		        <id>snapshots</id>
+		        <name>CANA012DLS-snapshots</name>
+		        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+		    </snapshotRepository>
 		</distributionManagement>
     <build>
         <pluginManagement>
